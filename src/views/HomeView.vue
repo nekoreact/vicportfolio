@@ -1,12 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-import WhoIAmVue from '../components/WhoIAm.vue';
-
+import HelloWorld from '../components/HelloWorld.vue';
+import WhyILoveDoingCodeVue from '../components/WhyILoveDoingCode.vue';
 </script>
 
 <template>
-  <main>
-    <WhoIAmVue></WhoIAmVue>
     <!-- <TheWelcome /> -->
+    <main>
+    <div class="w-full flex flex-col">
+      <WhyILoveDoingCodeVue></WhyILoveDoingCodeVue>
+      <HelloWorld/>
+    </div>
+
   </main>
 </template>

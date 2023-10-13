@@ -5,22 +5,6 @@ import WhyILoveDoingCodeVue from './components/WhyILoveDoingCode.vue';
 </script>
 
 <template>
-  <main>
-    <div class="w-full flex flex-col">
-      <WhyILoveDoingCodeVue></WhyILoveDoingCodeVue>
-      <HelloWorld msg="You did it!" />
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-
-  </main>
-  <header>
-  </header>
-  <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-
   <RouterView />
 </template>
 

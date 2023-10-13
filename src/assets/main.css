@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 #app {
-  max-width: 1920px;
+  max-width: 2920px;
   margin: 0 auto;
 
   font-weight: normal;
@@ -21,6 +21,7 @@ a,
 body {
   background-image: url('./tokyo.jpg');
   background-position: center bottom;
+  background-size: cover;
   /* background-attachment: fixed; */
 }
 
@@ -34,6 +35,14 @@ body {
   border-radius: 10px;
   box-shadow: 3px 5px 3px #ff4343d4;
   color: #000;
+}
+
+.backend {
+  background-image: url('./sakura.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 @media (hover: hover) {
